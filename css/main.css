@@ -1,0 +1,67 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    color: #1B1B1E;
+}
+
+* {
+    width: inherit;
+}
+
+.naglowek {
+    height: 80px;
+    position: fixed;
+    background: #1B1B1E;
+    z-index: 1;
+}
+
+.tytul {
+    font-family: monospace;
+    font-size: 36px;
+    color: #D8DBE2;
+    margin: 0;
+    padding: 5px 0px 0px 10px;
+}
+
+.autor {
+    font-family: monospace;
+    font-size: 16px;
+    color: #DFDFDF;
+    margin: 0;
+    padding: 5px 0px 10px 35px;
+}
+
+.artykul {
+    position: relative;
+    top: 80px;
+    z-index: 0;
+}
+
+.tekst {
+    width: 700px;
+    margin: 15px auto 15px auto;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 170%;
+}
+
+.obraz {
+    text-align: center;
+}
+
+.maly {
+    width: 700px;
+}
+
+.cytat {
+    font-style: italic;
+    margin: 10px 0px 15px 5%;
+    padding: 0px 0px 0px 10px;
+    border-left: 7px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: #373F51;
+}
